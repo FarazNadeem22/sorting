@@ -36,6 +36,8 @@ class Student:
     def objectCount(cls):
         #print("Total number of students: ", cls.count)
         return cls.count
+   
+    
 def get_grade(marks):
     if marks > 92:
         return "A+"
